@@ -16,4 +16,3 @@ C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador\Manipulador\Manipulador\ob
 C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador\Manipulador\Manipulador\obj\Debug\net6.0-windows\Manipulador.pdb
 C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador\Manipulador\Manipulador\obj\Debug\net6.0-windows\Manipulador.genruntimeconfig.cache
 C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador\Manipulador\Manipulador\obj\Debug\net6.0-windows\Manipulador.Properties.Resources.resources
-C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador\Manipulador\Manipulador\obj\Debug\net6.0-windows\Manipulador.csproj.AssemblyReference.cache
