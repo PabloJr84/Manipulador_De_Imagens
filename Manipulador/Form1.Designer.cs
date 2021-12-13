@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -35,13 +36,14 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.button1.Location = new System.Drawing.Point(983, 16);
+            this.button1.Location = new System.Drawing.Point(1094, 16);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(170, 29);
             this.button1.TabIndex = 0;
@@ -53,7 +55,7 @@
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(983, 66);
+            this.button2.Location = new System.Drawing.Point(1094, 63);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(170, 29);
             this.button2.TabIndex = 1;
@@ -87,7 +89,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(593, 118);
+            this.pictureBox1.Location = new System.Drawing.Point(593, 98);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(681, 551);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,12 +107,23 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Manipulador de Imagens CFTV";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label2.Location = new System.Drawing.Point(12, 661);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Pablo Assis";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(1286, 673);
+            this.ClientSize = new System.Drawing.Size(1304, 690);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBox2);
@@ -119,10 +132,12 @@
             this.Controls.Add(this.button1);
             this.ForeColor = System.Drawing.Color.Navy;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Manipulador CFTV";
+            this.Text = "Buscador de Imagens";
             this.TransparencyKey = System.Drawing.Color.Black;
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -138,5 +153,6 @@
         private PictureBox pictureBox1;
         private FolderBrowserDialog folderBrowserDialog1;
         private Label label1;
+        private Label label2;
     }
 }
