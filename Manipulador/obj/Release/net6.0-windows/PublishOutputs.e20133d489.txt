@@ -1,0 +1,5 @@
+C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador.exe
+C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador.dll
+C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador.deps.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador.runtimeconfig.json
+C:\Users\pablo\OneDrive\Área de Trabalho\Manipulador.pdb
